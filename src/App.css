@@ -1,0 +1,80 @@
+.container{
+  background-color: bisque;  
+}
+
+.title{
+  font-family: 'Bebas Neue', cursive;
+  padding: 2% 0% 0% 40%;
+  width: 100%;
+  color: azure;
+  font-size: 3.5rem;
+}
+
+.Container{
+  background-image: linear-gradient(to right, rgba(15, 15, 15, 0.8) 0%,rgba(81, 82, 54, 0.3) 100%), url("img/background.jpg");
+  background-position: center;
+  background-repeat: None;
+  background-size: cover;
+  height: 100vh;
+}
+.card{
+  padding: 3% 1% 2% 1%;
+  display: grid;
+  grid-template-columns: .5fr 1fr 2fr;
+  grid-template-rows: 2fr 2fr 1fr;
+  height: 75vh;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+
+.card-content{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: -1;
+  width: 100%;
+  color:rgb(234, 242, 245);
+  border-style: inset;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%,rgba(4, 4, 4, 0.5) 100%), url("img/background.jpg");
+  background-position: center;
+  background-repeat: None;
+  background-size: cover;
+}
+
+.Name{
+  font-size: 3rem;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 5% 0% 2% 5%;
+  height: 15vh;
+}
+
+.About{
+  padding: 10% 5% 5% 5%;
+  height: 25vh;
+  grid-row-start: 2;
+}
+
+.social{
+  grid-row-start: 3;
+  grid-row-end: -1;
+  background-color: rgba(0, 0, 0, 0.2);
+  min-height: 20vh;
+}
+.card-picture{
+  grid-column-start: 3;
+  grid-row-start: 2;
+  height: 65vh;
+  width: 70%;
+  background-image: linear-gradient(to right, rgba(10, 3, 3, 0.8) 0%,rgba(81, 82, 54, 0.5) 100%), url("img/profie-pic.jpg");
+  background-position: center;
+  background-repeat: None;
+  background-size: cover;
+  border-style: outset;
+}
+
+.Footer{
+  font-family: 'Passions Conflict', cursive;
+  color: rgb(234, 242, 245);
+  padding: 0% 0% 0% 42%;
+  font-size: 3rem;
+}
